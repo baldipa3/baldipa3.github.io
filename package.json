@@ -36,7 +36,6 @@
   "scripts": {
     "start": "webpack-dev-server",
     "lint": "eslint './src/**/*.js' './src/**/*.jsx'",
-    "predeploy": "npm run build",
     "deploy": "webpack -p && gh-pages -d dist"
   }
 }
